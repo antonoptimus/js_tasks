@@ -13,5 +13,7 @@ let maxProfit = (prices) => {
   return result;
 };
 
+// array.reduce((sum, current, index, arr) => current > arr[index - 1] ? sum += current - arr[index - 1] : sum, 0)
+
 console.log(maxProfit(prices1));
 console.log(maxProfit(prices2));
